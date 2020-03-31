@@ -41,7 +41,7 @@ const htmlBuilder = (group, options) => {
                 inner.classes.push("cancel-pad");
             }
         } else {
-            inner.classes.push("boxpad");
+          // inner.classes.push("boxpad");
         }
 
         // Add vertical padding
@@ -62,7 +62,7 @@ const htmlBuilder = (group, options) => {
         img = stretchy.encloseSpan(inner, label, vertPad, options);
         if (/fbox|boxed|fcolorbox/.test(label)) {
             img.style.borderStyle = "solid";
-            img.style.borderWidth = `${ruleThickness}em`;
+            img.style.borderWidth = "0em";
         }
         imgShift = inner.depth + vertPad;
 

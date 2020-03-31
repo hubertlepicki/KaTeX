@@ -88,7 +88,7 @@ const sigmasAndXis = {
     arrayRuleWidth: [0.04, 0.04, 0.04],
 
     // Two values from LaTeX source2e:
-    fboxsep: [0.3, 0.3, 0.3], //        3 pt / ptPerEm
+    fboxsep: [0.03, 0.3, 0.3], //        3 pt / ptPerEm
     fboxrule: [0.04, 0.04, 0.04], // 0.4 pt / ptPerEm
 };
 
